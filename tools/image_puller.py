@@ -6,8 +6,8 @@ import ssl
 
 logging.basicConfig(level=logging.INFO)
 
-
-names = ['201708supplydemand', '201708bigday', '201708altright', '201708revanchism', '201708anteup', '201708tourism', '201708backstory', '201709bonfire', '201709identity', '201709voltage', '201709journos', '201708amazon', '201708genocide', '201708media', '201708culturewar', '201708diversity', '201708sargon']
+#'201708supplydemand', 
+names = ['201708bigday', '201708altright', '201708revanchism', '201708anteup', '201708tourism', '201708backstory', '201709bonfire', '201709identity', '201709voltage', '201709journos', '201708amazon', '201708genocide', '201708media', '201708culturewar', '201708diversity', '201708sargon']
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
